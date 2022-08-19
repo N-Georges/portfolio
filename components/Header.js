@@ -15,13 +15,13 @@ export const Header = () => {
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse>
-          <Navbar.Link href="/navbars" active={true}>
+          <Navbar.Link href="/" active={true}>
             Home
           </Navbar.Link>
           <Navbar.Link href="#about">About</Navbar.Link>
-          <Navbar.Link href="/navbars">Services</Navbar.Link>
-          <Navbar.Link href="/navbars">Project</Navbar.Link>
-          <Navbar.Link href="/navbars">Contact</Navbar.Link>
+          <Navbar.Link href="#services">Services</Navbar.Link>
+          <Navbar.Link href="#project">Project</Navbar.Link>
+          <Navbar.Link href="#contact">Contact</Navbar.Link>
         </Navbar.Collapse>
       </Navbar>
     </div>
