@@ -1,0 +1,81 @@
+export const data = [
+  {
+    id: 1,
+    picture: "/assets/blog.png",
+    name: "My Personal Blog",
+    stack: ["Nextjs", "TailwindCSS", "Graphql", "Hygraphcms"],
+    excerpt:
+      "This project is my personal blog where I write articles on tech topics and share tech author articles.",
+    demoUrl: "https://atomics.vercel.app/",
+    githubUrl: "https://github.com/N-Georges/atomics",
+  },
+  {
+    id: 2,
+    picture: "/assets/deliveroo-clone.png",
+    name: "Deliveroo Clone",
+    stack: [
+      "React native",
+      "TailwindCSS",
+      "GROQ",
+      "Sanity",
+      "Redux/toolkit",
+      "expo",
+    ],
+    excerpt: "",
+    githubUrl: "https://github.com/N-Georges/Deliveroo-clone",
+  },
+  {
+    id: 3,
+    picture: "/assets/disney-clone.png",
+    name: "Disney Clone",
+    stack: ["Nextjs", "TailwindCSS", "Graphql", "Hygraphcms"],
+    excerpt:
+      "This project is a disneyPlus clone made in Nextjs with Hygraphcms as cms.",
+    demoUrl: "https://disney-clone1.vercel.app/",
+    githubUrl: "https://github.com/N-Georges/disney-clone",
+  },
+  {
+    id: 4,
+    picture: "/assets/blogI18n.png",
+    name: "Blog-I18n",
+    stack: ["Nextjs", "TailwindCSS", "GROQ", "Sanity", "I18n"],
+    excerpt:
+      "This project is blog where I write articles on tech topics and share tech author articles.",
+    demoUrl: "https://atomics-technologie-blog.vercel.app/",
+    githubUrl: "https://github.com/N-Georges/next-js-blog-with-comments",
+  },
+  {
+    id: 5,
+    picture: "/assets/nft.png",
+    name: "Nft Marketplace Ui",
+    stack: ["React native"],
+    excerpt: "This project is the Ui part of an nft marketplace.",
+    githubUrl: "https://github.com/N-Georges/reactnative-nft-marketplace",
+  },
+  {
+    id: 6,
+    picture: "/assets/shiny.png",
+    name: "Shiny Agency",
+    stack: ["ReactJs", "jest", "prop-types", "styled-components"],
+    excerpt: "This project is a profile search platform via questions.",
+    githubUrl: "https://github.com/N-Georges/shiny-agency",
+  },
+  {
+    id: 7,
+    picture: "/assets/laravel.png",
+    name: "Laravel Dashboard",
+    stack: ["Laravel", "TailwindCSS", "Laravel Breeze", "MySQL", "PhpMyAdmin"],
+    excerpt:
+      "Laravel and TailwindCSS project (authentication management with laravel breeze and management of several roles and users.",
+    githubUrl: "https://github.com/N-Georges/laravel_executant",
+  },
+  {
+    id: 8,
+    picture: "/assets/ecommerce.png",
+    name: "E-Commerce Ui",
+    stack: ["ReactJs", "MaterialUi", "UseContext"],
+    excerpt: "E-commerce Ui do in ReactJs and use hooks like useContext.",
+    demoUrl: "https://react-fashe.vercel.app/",
+    githubUrl: "https://github.com/N-Georges/react-fashe",
+  },
+];

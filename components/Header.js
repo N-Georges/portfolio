@@ -4,8 +4,8 @@ import React from "react";
 
 export const Header = () => {
   return (
-    <div className="py-1 px-5">
-      <Navbar fluid={true} rounded={true}>
+    <div className="py-1 px-5 bg-white bg-opacity-0 ">
+      <Navbar className="bg-white bg-opacity-100" fluid={true} rounded={true}>
         <Navbar.Brand href="/">
           <img
             src="/assets/logo1.png"
