@@ -84,9 +84,28 @@ export const Contact = () => {
   return (
     <section id="contact" className="bg-white dark:bg-gray-900">
       <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-        <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-indigo-600 dark:text-white">
-          Contact Us
-        </h2>
+        <div className="flex justify-between">
+          <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-indigo-600 dark:text-white">
+            Contact Me
+          </h2>
+          <p className="flex items-center space-x-1 ">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-6 w-6 text-indigo-600"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              strokeWidth={2}
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+              />
+            </svg>
+            <a href="mailto:ngeorges.dev@gmail.com" className="hover:underline cursor-pointer hover:text-blue-700">ngeorges.dev@gmail.com</a>
+          </p>
+        </div>
         <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
           Do you have any questions about me? Are you interested in a
           collaboration or do you want to know more about me? Let me know.
