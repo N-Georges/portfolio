@@ -84,11 +84,11 @@ export const Contact = () => {
   return (
     <section id="contact" className="bg-white dark:bg-gray-900">
       <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-        <div className="flex justify-between">
+        <div className="sm:flex justify-between">
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-indigo-600 dark:text-white">
             Contact Me
           </h2>
-          <p className="flex items-center space-x-1 ">
+          <p className="flex items-center justify-center space-x-1 ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-6 w-6 text-indigo-600"
